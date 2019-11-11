@@ -20,9 +20,7 @@
         <li>
           <a class="navLink" href="index.html">Home</a>
         </li>
-        <li>
-          <a class="navLink" href="attractions.html">Attractions</a>
-        </li>
+        <li><a class="navLink" href="attractions.html">Attractions</a>~</li>
         <li>
           <a class="navLink" href="contact.html">Contact Us</a>
         </li>
@@ -33,14 +31,20 @@
     </nav>
     <main>
       <section>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18980.21373208477!2d-113.41948029999999!3d53.51264944999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1572299585691!5m2!1sen!2sca"
-          width="600"
-          height="450"
-          frameborder="0"
-          style="border:0;"
-          allowfullscreen=""
-        ></iframe>
+        <img
+          src="./images/san-francisco-tourist-map.jpg"
+          width="845"
+          height="626"
+          alt="Planets"
+          usemap="#sanFran"
+        />
+        <map name="sanFran">
+          <area
+            shape="circle"
+            coords="20,20,40,40"
+            alt="Theme park map location"
+          />
+        </map>
       </section>
       <section>
         <form action="" method="post">
@@ -49,13 +53,7 @@
             concerns
           </h4>
           <fieldset>
-            <input
-              placeholder="Your name"
-              type="text"
-              tabindex="1"
-              required
-              autofocus
-            />
+            <input placeholder="Your name" type="text" tabindex="1" required />
           </fieldset>
           <fieldset>
             <input
@@ -134,9 +132,11 @@
     <footer>
       <p>2019</p>
       <p>&copy; Web Dev Group t1g2-cdx</p>
-      <address>Address of theme park</address>
+      <address>
+        10000 Fakey Fake street San Francisco, CA USA
+      </address>
       <section>
-        <h4>Follow us on social media</h4>
+        <h4 id="4">Follow us on social media</h4>
         <ul>
           <a href=""><i class="fab fa-facebook"></i></a>
           <a href=""><i class="fab fa-instagram"></i></a>
