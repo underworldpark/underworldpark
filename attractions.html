@@ -12,23 +12,27 @@
 </head>
 
 <body>
-<!-- Header containing the navigation bar and logo, which is consistent across all pages-->
+    <!-- Header containing the navigation bar and logo, which is consistent across all pages-->
 <header>
-    <nav>
-        <!--logo of the theme park links to the main/home page-->
+    <nav class="navBar">
+      <!--logo of the theme park links to the main/home page-->
         <a href="#Home">
-            <img src="images/logo.jpg" alt="Theme park logo">
+          <img src="images/logo.jpg" alt="Theme park logo" />
         </a>
-        <a href="index.html">Home</a>
-        <a href="attractions.html">Attractions</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="#Shop">
-            <img src="" alt="Shopping Cart">
+        <ul>
+          <li>
+            <a class="navLink" href="index.html">Home</a>
+          </li>
+          <li><a class="navLink" href="attractions.html">Attractions</a>~</li>
+          <li>
+            <a class="navLink" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <a href="#" alt="Shopping cart icon"
+          ><i class="fas fa-shopping-cart"></i>
         </a>
-        <section>
-            <button onclick="window.location.href='#';">BUY TICKETS</button>
-        </section>
-    </nav>
+        <button onclick="window.location.href='#';">BUY TICKETS</button>
+      </nav>
 </header>
 
 <!--This section contains the title banner-->
@@ -38,7 +42,9 @@
 
 <main>
     <section>
-        <div><h2>Rides</h2></div>
+        <div id="title">
+            <h2>Rides</h2>
+        </div>
         <!--This section contains images of rides and their descriptions below placed side by side(3x3)-->
         <div id="ride-imagesContainer">
             <div class="card">
@@ -103,7 +109,9 @@
     </section>
 
     <section>
-        <div><h2>Food Court</h2></div>
+        <div id="title">
+            <h2>Food Court</h2>
+        </div>
         <!--This section contains images of restaurants and their descriptions. Images will float left to the paragraph-->
         <div id="restaurant1">
             <h3>Mourning Fields</h3>
