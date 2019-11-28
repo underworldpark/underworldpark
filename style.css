@@ -29,6 +29,13 @@ header {
     justify-content: space-between;
 }
 
+footer {
+    background-color: #8198A6;
+    padding: 1em;
+    margin-top: 2em;
+    text-align: center;
+}
+
 .navBar {
     top: 0;
     width: 100%;
@@ -63,7 +70,7 @@ header {
     border-bottom: 3px #fa4d31 solid;
 }
 
-#buy-btn {
+.buy-btn {
     background-color: #BF0404;
     color: #ffffff;
     padding: .5em 1em;
@@ -73,7 +80,7 @@ header {
     border-radius: .5em;
 }
 
-#buy-btn:hover {
+.buy-btn:hover {
     background-color: #fa4d31;
 }
 
@@ -103,4 +110,55 @@ header {
 #titleContainer {
     top: 0;
     left: 0;
+}
+
+#image-slider{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.image-slider-element {
+  margin: 0 1em;
+}
+
+.important-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.important-links ul {
+    list-style: none;
+}
+
+.website-links ul > li {
+    margin: .5em;
+}
+
+.small-logo {
+    height: 40px;
+    width: 150px;
+}
+
+.bottom-links {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bottom-links:hover, .social-media-links li > a:hover {
+    border-bottom: 2px #fa4d31 solid;
+}
+
+.social-media-links {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.social-media-links li > a {
+    color: #ffffff;
 }
