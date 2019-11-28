@@ -7,6 +7,13 @@
 * {
   font-family: "Odibee Sans", cursive, Arial, sans-serif;
 }
+
+body{
+  background-color: #536473;
+  margin: 0;
+  color: #ffffff;
+}
+
 main {
   width: 100%;
   margin: auto;
@@ -23,7 +30,8 @@ main {
   display: flex;
   justify-content: space-between;
   color: red;
-  margin: 10px;
+  padding: 10px;
+  background-color: #283040;
 }
 .navBar ul {
   list-style: none;
