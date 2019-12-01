@@ -36,6 +36,22 @@ footer {
     text-align: center;
 }
 
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.7em
+}
+
+p {
+    font-size: 1.3em;
+}
+
 .navBar {
     top: 0;
     width: 100%;
@@ -53,7 +69,7 @@ footer {
 }
 
 .navBar li {
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -94,7 +110,6 @@ footer {
 .logo {
     height: 50px;
     width: 200px;
-/*    background-color: #ffffff;*/
     padding: .5em 1em;
 }
 
@@ -112,15 +127,15 @@ footer {
     left: 0;
 }
 
-#image-slider{
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
+#image-slider {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
 }
 
 .image-slider-element {
-  margin: 0 1em;
+    margin: 0 1em;
 }
 
 .important-links {
