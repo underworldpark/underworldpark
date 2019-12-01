@@ -1,100 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-		<title>Theme Park</title>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<meta name="description" content="Theme park" />
-		<meta name="refresh" content="600" />
-		<meta
-		  name="keywords"
-		  content="Rides, attractions,'amusement park', rollercoaster, 'theme park'"
-		/>
-		<link rel="stylesheet" href="style.css" />
-	  	<link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <!-- Same header in all the pages -->
-    <header>
-      <nav class="navBar">
+<head>
+    <title>Theme Park</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="description" content="Theme park"/>
+    <meta name="refresh" content="600"/>
+    <meta
+            name="keywords"
+            content="Rides, attractions,'amusement park', rollercoaster, 'theme park'"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Header containing the navigation bar and logo, which is consistent across all pages-->
+<header>
+    <nav class="navBar">
         <!--logo of the theme park links to the main/home page-->
-        <a href="#Home"></a>
-          <img class="logo" src="images/logo.jpg" alt="Theme park logo" />
+        <a href="#Home">
+            <img class="logo" src="images/underworld_logo_vector.svg" alt="Theme park logo"/>
         </a>
+
         <ul>
-          <li>
-            <a class="navLink" id='active' href="index.html">Home</a>
-          </li>
-          <li><a class="navLink" href="attractions.html">Attractions</a></li>
-          <li>
-            <a class="navLink" href="contact.html">Contact Us</a>
-          </li>
+            <li>
+                <a class="navLink" id='active' href="index.html">Home</a>
+            </li>
+            <li><a class="navLink" href="attractions.html">Attractions</a></li>
+            <li>
+                <a class="navLink" href="contact.html">Contact Us</a>
+            </li>
         </ul>
-        <a href="#" alt="Shopping cart icon"
-          ><i class="fas fa-shopping-cart"></i>
-        </a>
-        <button onclick="window.location.href='#';">BUY TICKETS</button>
-      </nav>
-    </header>
 
+        <button class="buy-btn" onclick="window.location.href='#';">BUY TICKETS</button>
+    </nav>
+</header>
 
-    <!-- The main section is consisting of the IMAGE slider, along with the bottom menu elements -->
-    <main>
-      
-      <ul id="image-slider">
+<!-- The main section is consisting of the IMAGE slider, along with the bottom menu elements -->
+<main>
+
+    <ul id="image-slider">
         <li class="image-slider-element">
-        	<img src="images/MainPage/woman-boy-enjoying.jpg" alt="family having fun on a ride">
-        	
-
+            <img src="images/MainPage/woman-boy-enjoying.jpg" alt="family having fun on a ride">
         </li>
+
         <li class="image-slider-element">
-        	<img src="images/MainPage/aereal-footage.jpg" alt="areal footage of park" width="240" >
-
+            <img src="images/MainPage/aereal-footage.jpg" alt="areal footage of park" width="240">
         </li>
+
         <li class="image-slider-element">
-        	<img src="images/Rides/rollercoaster2.jpg" alt="family at secondary attraction" width="240">
+            <img src="images/Rides/rollercoaster2.jpg" alt="family at secondary attraction" width="240">
         </li>
-      </ul>
+    </ul>
 
-      <!-- The bottom menu is not the footer, but consists of easy navigation links to the other pages -->
-      <div id="bottom-menu">
-      
-      	<h4>Getting here (location and directions)</h4>
+    <!-- The bottom menu is not the footer, but consists of easy navigation links to the other pages -->
+    <div id="bottom-menu">
+
+        <h2>Getting here (location and directions)</h2>
         <a class="bottom-menu-item-link" href=""
-          ><img src="images/MainPage/hades-map.jpeg" alt="Image of a map over Hades" width="100"/>
-          
+        ><img src="images/MainPage/hades-map.jpeg" alt="Image of a map over Hades" width="100"/>
         </a>
-        <h4>Attractions</h4>
-        <a class="bottom-menu-item-link" href="attractions.html"
-          ><img src="images/Rides/pendulum.jpg" alt="Image of people riding attraction" width="100" />
-       
-        </a>
-        
-      </div>
-    </main>
 
-    <!-- Footer containing copyright and update information -->
-   <footer>
-      <p>2019</p>
-      <p>&copy; Web Dev Group t1g2-cdx</p>
-      <address>
-        10000 Fakey Fake Street San Francisco, CA USA
-      </address>
-      <section>
-        <h4 id="4">Follow us on social media</h4>
-        <ul>
-          <a href=""><i class="fab fa-facebook"></i></a>
-          <a href=""><i class="fab fa-instagram"></i></a>
-          <a href=""><i class="fab fa-twitter"></i></a>
-          <a href=""><i class="fab fa-reddit"></i></a>
-        </ul>
-      </section>
-      <ul>
-        <li><a class="navLink" href="index.html">Home</a></li>
-        <li><a class="navLink" href="attractions.html">Attractions</a></li>
-        <li><a class="navLink" href="contact.html">Contact Us</a></li>
-      </ul>
-    </footer>
-  </body>
+        <h2>Attractions</h2>
+        <a class="bottom-menu-item-link" href="attractions.html"
+        ><img src="images/Rides/pendulum.jpg" alt="Image of people riding attraction" width="100"/>
+        </a>
+
+    </div>
+</main>
+
+<!-- Footer containing navigation links and other information -->
+<footer>
+    <div class="important-links">
+        <div class="website-links">
+            <img class="small-logo" src="images/underworld_logo_vector.svg" alt="Theme park logo"/>
+
+            <ul>
+                <li><a class="bottom-links" href="index.html">Home</a></li>
+                <li><a class="bottom-links" href="attractions.html">Attractions</a></li>
+                <li><a class="bottom-links" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="buy-btn-square">
+            <button class="buy-btn" onclick="window.location.href='#';">BUY TICKETS</button>
+        </div>
+
+        <section>
+            <h4 id="4">Follow us on social media</h4>
+            <ul class="social-media-links">
+                <li>
+                    <a href=""><i class="fab fa-facebook fa-fw"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-instagram fa-fw"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-twitter fa-fw"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fab fa-reddit fa-fw"></i></a>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <p>&copy; 2019</p>
+    <p>Web Dev Group t1g2-cdx</p>
+    <address>
+        10000 Fakey Fake street San Francisco, CA USA
+    </address>
+</footer>
+<script src="https://kit.fontawesome.com/1b9c1e39c0.js"
+        crossorigin="anonymous"></script>
+</body>
 </html>
