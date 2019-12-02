@@ -131,3 +131,10 @@ p {
     color: #ffffff;
 }
 
+footer {
+    background-color: #283040;
+    padding: 1em;
+    margin-top: 2em;
+    text-align: center;
+}
+
