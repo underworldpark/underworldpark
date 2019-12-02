@@ -1,0 +1,133 @@
+.card {
+  box-shadow: 0 6px 3px 0 #536473;
+  transition: 0.3s;
+  width: 30%;
+  margin: 12px;
+}
+
+.card:hover {
+    box-shadow: 0 20px 16px 0 #283040,0 17px 50px 0 #536473;
+}
+
+.box {
+  padding: 2px 16px;
+}
+
+.card img {
+    width: 360px;
+    height: 340px;
+    object-fit: cover;
+}
+
+.card {
+  float: left;
+  width: 28.5%; 
+  padding: 10px;
+  background-color:#283040; 
+}
+
+.flipImage {
+    background-color: transparent;
+    width: 360px;
+    height: 340px;
+    position: relative;
+    left: 825px;
+    top: 1400px;
+}
+
+.flipImage-inner {
+    width: 390px;
+    height: 620px;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+ }
+
+.flipImage:hover .flipImage-inner {
+    transform: rotateY(180deg);
+}
+
+.flipImage-front, .flipImage-back {
+    position: absolute;
+    width: 390px;
+    height: 620px;
+    backface-visibility: hidden;
+     box-shadow: 15px 10px 5px   white;
+}
+
+.flipImage-back {
+    transform: rotateY(180deg);
+    width: 390px;
+    height: 620px;
+    background-color: #283040;
+}
+
+#hiddenText {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 1.25em ;
+    position: relative;
+    top: 150px;
+}
+
+.flipImage img {
+    width: 390px;
+    height: 620px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#title {
+    clear: left;
+    border: 5px solid #BF0404;
+    background-color:  #BF0404;
+    text-align: center;
+    color: white;
+}
+
+main {
+    margin: 25px;
+    padding: 15px;
+  }
+
+#titleContainer_att {
+    border: 5px solid  #536473;
+    text-align: center;
+    background-color: #536473;
+    padding: 10px;
+}
+
+
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 45px; 
+}
+
+h3 {
+    color: #BF0404;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    font-size: 1.99em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    font-size: 1.3em;
+    font-family: Arial;
+    color: white;
+}
+
+ .mainSection {
+    background-color: #8198A6;
+    margin: 0;
+    color: #ffffff;
+}
+
