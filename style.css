@@ -6,6 +6,8 @@
 
 * {
   font-family: "Odibee Sans", Times, serif;
+  letter-spacing: 1.5px;
+  line-height: 1.1em;
 }
 
 body {
@@ -31,29 +33,27 @@ header {
 
 footer {
   background-color: #8198a6;
-  padding: 10px;
-  margin-top: 5px;
+  padding: 5px;
+  margin-top: 2px;
   text-align: center;
 }
 
-<<<<<<< HEAD
 h1 {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 h2 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 h3 {
-    font-size: 1.7em
+  font-size: 1.7em;
 }
 
 p {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
-=======
 .extra-foot p {
   margin: 0px;
   font-size: 14px;
@@ -63,7 +63,6 @@ p {
   text-align: left;
   font-size: 14px;
 }
->>>>>>> Contact style
 .navBar {
   position: fixed;
   top: 0;
@@ -83,13 +82,8 @@ p {
 }
 
 .navBar li {
-<<<<<<< HEAD
-    font-size: 1.5em;
-    font-weight: bold;
-=======
   font-size: 24px;
   font-weight: bold;
->>>>>>> Contact style
 }
 
 .navLink {
@@ -101,8 +95,8 @@ p {
 }
 
 .navLink:hover {
-  font-size: 25px;
-  border-bottom: 3px #fa4d31 solid;
+  font-size: 23px;
+  border-bottom: 2px #fa4d31 solid;
 }
 
 .buy-btn {
@@ -127,21 +121,15 @@ p {
 }
 
 .logo {
-<<<<<<< HEAD
-    height: 50px;
-    width: 200px;
-    padding: .5em 1em;
-=======
   height: 50px;
   width: 200px;
   /*    background-color: #ffffff;*/
   padding: 0.5em 1em;
->>>>>>> Contact style
 }
 
 #active {
   font-weight: bolder;
-  background-color: #8198a6;
+  border-bottom: 1px solid#0307ff;
 }
 
 #active:hover {
@@ -154,37 +142,32 @@ p {
 }
 
 #image-slider {
-<<<<<<< HEAD
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-=======
   list-style: none;
   display: flex;
   justify-content: space-between;
   padding: 0;
->>>>>>> Contact style
 }
 
 .image-slider-element {
-    margin: 0 1em;
+  margin: 0 1em;
 }
 
 .important-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .important-links ul {
   list-style: none;
 }
 .website-links {
+  text-align: right;
 }
 .website-links ul > li {
   margin: 0.1em;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .small-logo {
@@ -203,7 +186,7 @@ p {
 }
 
 .social-media-links {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   display: flex;
   justify-content: space-between;
   padding: 0;
@@ -212,7 +195,11 @@ p {
 .social-media-links li > a {
   color: #ffffff;
 }
-
+.social-media-links li > a:hover {
+  border: 2px solid #ffffff;
+  border-radius: 20%;
+  padding-top: 2px;
+}
 form {
   border: 1px solid black;
   box-shadow: 1px 2px 2px 1px gray;
