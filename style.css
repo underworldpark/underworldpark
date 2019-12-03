@@ -6,11 +6,8 @@
 
 * {
   font-family: "Odibee Sans", Times, serif;
-<<<<<<< HEAD
   letter-spacing: 1.5px;
   line-height: 1.1em;
-=======
->>>>>>> 8b146b520d123ae00d7409d25e77c3b40b1f5b59
 }
 
 body {
@@ -36,7 +33,6 @@ header {
 
 footer {
   background-color: #8198a6;
-<<<<<<< HEAD
   padding: 5px;
   margin-top: 2px;
   text-align: center;
@@ -58,13 +54,6 @@ p {
   font-size: 1.3em;
 }
 
-=======
-  padding: 10px;
-  margin-top: 5px;
-  text-align: center;
-}
-
->>>>>>> 8b146b520d123ae00d7409d25e77c3b40b1f5b59
 .extra-foot p {
   margin: 0px;
   font-size: 14px;
@@ -82,11 +71,7 @@ p {
   justify-content: space-between;
   padding: 1.5em 1em;
   background-color: #283040;
-<<<<<<< HEAD
   transition: top 0.5s ease-in-out;
-=======
-  transition: top 0.2s ease-in-out;
->>>>>>> 8b146b520d123ae00d7409d25e77c3b40b1f5b59
 }
 
 .navBar ul {
@@ -110,13 +95,8 @@ p {
 }
 
 .navLink:hover {
-<<<<<<< HEAD
   font-size: 23px;
   border-bottom: 2px #fa4d31 solid;
-=======
-  font-size: 25px;
-  border-bottom: 3px #fa4d31 solid;
->>>>>>> 8b146b520d123ae00d7409d25e77c3b40b1f5b59
 }
 
 .buy-btn {
@@ -149,11 +129,7 @@ p {
 
 #active {
   font-weight: bolder;
-<<<<<<< HEAD
   border-bottom: 1px solid#0307ff;
-=======
-  background-color: #8198a6;
->>>>>>> 8b146b520d123ae00d7409d25e77c3b40b1f5b59
 }
 
 #active:hover {
@@ -180,28 +156,18 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-<<<<<<< HEAD
   font-size: 1.1rem;
-=======
-  font-size: 1.5rem;
->>>>>>> 8b146b520d123ae00d7409d25e77c3b40b1f5b59
 }
 
 .important-links ul {
   list-style: none;
 }
 .website-links {
-<<<<<<< HEAD
   text-align: right;
 }
 .website-links ul > li {
   margin: 0.1em;
   font-family: "Times New Roman", Times, serif;
-=======
-}
-.website-links ul > li {
-  margin: 0.1em;
->>>>>>> 8b146b520d123ae00d7409d25e77c3b40b1f5b59
 }
 
 .small-logo {
@@ -220,11 +186,7 @@ p {
 }
 
 .social-media-links {
-<<<<<<< HEAD
   font-size: 1.6rem;
-=======
-  font-size: 1.5rem;
->>>>>>> 8b146b520d123ae00d7409d25e77c3b40b1f5b59
   display: flex;
   justify-content: space-between;
   padding: 0;
@@ -233,15 +195,11 @@ p {
 .social-media-links li > a {
   color: #ffffff;
 }
-<<<<<<< HEAD
 .social-media-links li > a:hover {
   border: 2px solid #ffffff;
   border-radius: 20%;
   padding-top: 2px;
 }
-=======
-
->>>>>>> 8b146b520d123ae00d7409d25e77c3b40b1f5b59
 form {
   border: 1px solid black;
   box-shadow: 1px 2px 2px 1px gray;
