@@ -1,0 +1,25 @@
+form {
+  width: 45vw;
+  background: #bf0404;
+  border-radius: 2px;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px white;
+  margin: 20px;
+}
+
+fieldset {
+  line-height: 1.2rem;
+  border: none;
+  width: 80%;
+}
+fieldset > input {
+  border: none;
+  border-bottom: 1px solid gray;
+  align-self: center;
+  width: -webkit-fill-available;
+  font-size: 1.2em;
+}
