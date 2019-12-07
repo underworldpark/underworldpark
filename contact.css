@@ -1,14 +1,15 @@
-form {
+.contact-card {
   width: 45vw;
-  background: #bf0404;
+  background: #283040;
   border-radius: 2px;
   color: gray;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  box-shadow: 2px 2px 2px 2px white;
+  box-shadow: 1px 6px 2px 3px white;
   margin: 20px;
+  padding: 20px;
 }
 
 fieldset {
@@ -16,10 +17,21 @@ fieldset {
   border: none;
   width: 80%;
 }
+textarea {
+  width: -webkit-fill-available;
+}
 fieldset > input {
   border: none;
   border-bottom: 1px solid gray;
   align-self: center;
   width: -webkit-fill-available;
   font-size: 1.2em;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: #bf0404;
 }
