@@ -1,3 +1,5 @@
+//Navbar hides on scroll down informed by https://www.w3schools.com/howto/howto_js_navbar_slide.asp
+
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
