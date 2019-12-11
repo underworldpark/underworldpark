@@ -140,11 +140,32 @@ p {
   left: 0;
 }
 
+/*@keyframes slide {
+  0%   {background-image: url(./images/main-page/dreamstime_xxl_115877950.jpg); background-position: 0 0;} !* Free photo 115877950 © Publicdomainphotos - Dreamstime.com *!
+  33%  {background-image: url(./images/main-page/dreamstime_xxl_82987191.jpg);background-position: -800px 0;} !* Free photo 82987191 © creativecommonsstockphotos - Dreamstime.com *!
+  66% {background-image: url(./images/main-page/dreamstime_xxl_96114283.jpg);background-position: -1600px 0;} !* Free photo 96114283 © creativecommonsstockphotos - Dreamstime.com *!
+  100% {background-position: 0 0;} !* Free photo 96114283 © creativecommonsstockphotos - Dreamstime.com *!
+}*/
+
+@keyframes slide {
+  0% {background-position:0 0; background-image: url(./images/main-page/dreamstime_xxl_115877950.jpg);}
+  /*16.66% {background-position:0 0;}*/
+  33.32% {background-position:-900px 0; background-image: url(./images/main-page/dreamstime_xxl_82987191.jpg);}
+  /*49.98% {background-position:-800px 0;}*/
+  66.64% {background-position:-1600px 0;background-image: url(./images/main-page/dreamstime_xxl_96114283.jpg);}
+  /*83.30% {background-position:-1600px 0;}*/
+  99% {background-position:0 0;}
+}
+
 #image-slider {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
+  margin: 5rem auto;
+  width: 800px;
+  height: 500px;
+  position: relative;
+  background-image: url(./images/main-page/dreamstime_xxl_115877950.jpg); /* Free photo 115877950 © Publicdomainphotos - Dreamstime.com */
+  background-position:0 0;
+  background-size:cover;
+  animation: slide 15s 3s infinite normal;
 }
 
 .image-slider-element {
