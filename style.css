@@ -5,218 +5,230 @@
 .UNDERWORLD-5-hex { color: #BF0404; */
 
 * {
-  font-family: "Odibee Sans", Times, serif;
+    font-family: "Odibee Sans", Times, serif;
 }
 
 body {
-  background-color: #536473;
-  margin: 0;
-  color: #ffffff;
+    background-color: #536473;
+    margin: 0;
+    color: #ffffff;
 }
 
 main {
-  width: 100%;
-  margin: auto;
-  margin-top: 80px;
-  padding-top: 45px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+main {
+    text-align: center;
 }
 
 footer {
-  background-color: #8198a6;
-  padding: 5px;
-  margin-top: 2px;
-  text-align: center;
+    background-color: #8198a6;
+    padding: 5px;
+    margin-top: 2px;
+    text-align: center;
 }
 
 h1 {
-  font-size: 2.5em;
+    font-size: 2.5em;
 }
 
 h2 {
-  font-size: 2em;
+    font-size: 2em;
 }
 
 h3 {
-  font-size: 1.7em;
+    font-size: 1.7em;
 }
 
 p {
-  font-size: 1.3em;
+    font-size: 1.3em;
 }
 
 .extra-foot p {
-  margin: 0px;
-  font-size: 14px;
-  text-align: left;
+    margin: 0px;
+    font-size: 14px;
+    text-align: left;
 }
+
 .extra-foot address {
-  text-align: left;
-  font-size: 14px;
+    text-align: left;
+    font-size: 14px;
 }
+
 .navBar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 1.5em 1em;
-  background-color: #283040;
-  transition: top 0.5s ease-in-out;
-  box-shadow: 2px 2px white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 1em;
+    background-color: #283040;
+    transition: top 0.5s ease-in-out;
+    box-shadow: 2px 2px white;
+    z-index: 999;
 }
 
 .navBar ul {
-  list-style: none;
-  display: flex;
-  width: 50%;
-  justify-content: flex-end;
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
 }
 
 .navBar li {
-  font-size: 24px;
-  font-weight: bold;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .navLink {
-  color: #ffffff;
-  text-shadow: 1px 1px rgb(172, 164, 164);
-  text-decoration: none;
-  padding: 0.5em 1em;
-  margin: 0 5px;
+    color: #ffffff;
+    text-shadow: 1px 1px rgb(172, 164, 164);
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 5px;
 }
 
 .navLink:hover {
-  font-size: 23px;
-  border-bottom: 2px #fa4d31 solid;
+    font-size: 23px;
+    border-bottom: 2px #fa4d31 solid;
 }
 
 .buy-btn {
-  background-color: #bf0404;
-  color: #ffffff;
-  padding: 0.5em 1em;
-  font-size: 24px;
-  font-weight: bold;
-  border: none;
-  border-radius: 0.5em;
+    background-color: #bf0404;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5em;
+    margin-right: 3rem;
 }
 
 .buy-btn:hover {
-  background-color: #fa4d31;
+    background-color: #fa4d31;
 }
 
 .container {
-  max-width: 400px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
 }
 
 .logo {
-  height: 50px;
-  width: 200px;
-  /*    background-color: #ffffff;*/
-  padding: 0.5em 1em;
+    height: 50px;
+    width: 200px;
+    padding: 0.5em 1em;
 }
 
 #active {
-  font-weight: bolder;
-  border-bottom: 1px solid#0307ff;
+    font-weight: bolder;
+    border-bottom: 1px solid #0307ff;
 }
 
 #active:hover {
-  border-bottom: none;
+    border-bottom: none;
 }
 
 #titleContainer {
-  top: 0;
-  left: 0;
+    top: 0;
+    left: 0;
 }
-
-/*@keyframes slide {
-  0%   {background-image: url(./images/main-page/dreamstime_xxl_115877950.jpg); background-position: 0 0;} !* Free photo 115877950 © Publicdomainphotos - Dreamstime.com *!
-  33%  {background-image: url(./images/main-page/dreamstime_xxl_82987191.jpg);background-position: -800px 0;} !* Free photo 82987191 © creativecommonsstockphotos - Dreamstime.com *!
-  66% {background-image: url(./images/main-page/dreamstime_xxl_96114283.jpg);background-position: -1600px 0;} !* Free photo 96114283 © creativecommonsstockphotos - Dreamstime.com *!
-  100% {background-position: 0 0;} !* Free photo 96114283 © creativecommonsstockphotos - Dreamstime.com *!
-}*/
-
+/* The animation for the slider was made from an example taken from css-tricks found in https://css-tricks.com/creating-a-css-sliding-background-effect/ */
 @keyframes slide {
-  0% {background-position:0 0; background-image: url(./images/main-page/dreamstime_xxl_115877950.jpg);}
-  /*16.66% {background-position:0 0;}*/
-  33.32% {background-position:-900px 0; background-image: url(./images/main-page/dreamstime_xxl_82987191.jpg);}
-  /*49.98% {background-position:-800px 0;}*/
-  66.64% {background-position:-1600px 0;background-image: url(./images/main-page/dreamstime_xxl_96114283.jpg);}
-  /*83.30% {background-position:-1600px 0;}*/
-  99% {background-position:0 0;}
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-2400px, 0, 0);
+    }
 }
 
-#image-slider {
-  margin: 5rem auto;
-  width: 800px;
-  height: 500px;
-  position: relative;
-  background-image: url(./images/main-page/dreamstime_xxl_115877950.jpg); /* Free photo 115877950 © Publicdomainphotos - Dreamstime.com */
-  background-position:0 0;
-  background-size:cover;
-  animation: slide 15s 3s infinite normal;
+.slider {
+    text-align: center;
+    overflow: hidden;
+    margin: 2rem auto;
+    width: 800px;
+    height: 500px;
 }
 
-.image-slider-element {
-  margin: 0 1em;
+.slides {
+    width: 3200px;
+    height: 500px;
+    display: flex;
+    background-image: url(./images/main-page/priscilla-du-preez-FOsina4f7qM-unsplash.jpg), /* Photo by Priscilla Du Preez on Unsplash */ url(./images/main-page/eunice-stahl-8Nyw2PQfSFw-unsplash.jpg), /* Photo by Eunice Stahl on Unsplash */ url(./images/main-page/dave-lastovskiy-RygIdTavhkQ-unsplash.jpg), /* Photo by Dave Lastovskiy on Unsplash */ url(./images/main-page/priscilla-du-preez-FOsina4f7qM-unsplash.jpg);
+    background-position: 0 0,
+    800px 0,
+    1600px 0,
+    2400px 0;
+    background-size: 800px 500px,
+    800px 500px,
+    800px 500px,
+    800px 500px;
+    background-repeat: no-repeat;
+    animation: slide 30s linear infinite;
 }
 
 .important-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
 }
 
 .important-links ul {
-  list-style: none;
-}
-.website-links {
-  text-align: right;
-}
-.website-links ul > li {
-  margin: 0.1em;
-  font-family: "Times New Roman", Times, serif;
+    list-style: none;
 }
 
-.small-logo {
-  height: 40px;
-  width: 150px;
+.website-links {
+    text-align: right;
+}
+
+.website-links ul > li {
+    margin: 0.1em;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .bottom-links {
-  color: #ffffff;
-  text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .bottom-links:hover,
 .social-media-links li > a:hover {
-  border-bottom: 2px #fa4d31 solid;
+    border-bottom: 2px #fa4d31 solid;
 }
 
 .social-media-links {
-  font-size: 1.6rem;
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
 }
 
 .social-media-links li > a {
-  color: #ffffff;
+    color: #ffffff;
 }
+
 .social-media-links li > a:hover {
-  border: 2px solid #ffffff;
-  border-radius: 20%;
-  padding-top: 2px;
+    border: 2px solid #ffffff;
+    border-radius: 20%;
+    padding-top: 2px;
+}
+
+#bottom-menu {
+    margin-bottom: 3rem;
 }
