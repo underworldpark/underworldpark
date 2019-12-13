@@ -37,7 +37,7 @@
   
   .flipImage-inner {
       width: 390px;
-      height: 590px;
+      height: 620px;
       transition: transform 0.4s;
       transform-style: preserve-3d;
    }
@@ -49,15 +49,16 @@
   .flipImage-front, .flipImage-back {
       position: absolute;
       width: 390px;
-      height: 590px;
+      height: 620x;
       backface-visibility: hidden;
+      box-shadow: 15px 10px 5px   white;
        
   }
   
   .flipImage-back {
       transform: rotateY(180deg);
       width: 390px;
-      height: 590px;
+      height: 620px;
       background-color: #283040;
   }
   
@@ -72,7 +73,7 @@
   
   .flipImage img {
       width: 390px;
-      height: 590px;
+      height: 620px;
   }
   
   .clearfix::after {
@@ -138,6 +139,6 @@
   
   body {
       background-color: #536473;
-      margin: 0;
+      margin: 0 auto;
       color: #ffffff;
   }
