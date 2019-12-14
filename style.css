@@ -35,10 +35,10 @@ main {
 }
 
 footer {
-  background-color: #283040;
-  padding: 1em;
-  margin-top: 2em;
-  text-align: center;
+    background-color: #283040;
+    padding: 1em;
+    margin-top: 2em;
+    text-align: center;
 }
 
 h1 {
@@ -147,6 +147,7 @@ p {
     top: 0;
     left: 0;
 }
+
 /* The animation for the slider was made from an example taken from css-tricks found in https://css-tricks.com/creating-a-css-sliding-background-effect/ */
 @keyframes slide {
     0% {
@@ -160,7 +161,7 @@ p {
 .slider {
     text-align: center;
     overflow: hidden;
-    margin: 2rem auto;
+    margin: 2rem auto 1rem;
     width: 800px;
     height: 500px;
 }
@@ -169,7 +170,7 @@ p {
     width: 3200px;
     height: 500px;
     display: flex;
-    background-image: url(./images/main-page/priscilla-du-preez-FOsina4f7qM-unsplash.jpg), /* Photo by Priscilla Du Preez on Unsplash */ url(./images/main-page/eunice-stahl-8Nyw2PQfSFw-unsplash.jpg), /* Photo by Eunice Stahl on Unsplash */ url(./images/main-page/dave-lastovskiy-RygIdTavhkQ-unsplash.jpg), /* Photo by Dave Lastovskiy on Unsplash */ url(./images/main-page/priscilla-du-preez-FOsina4f7qM-unsplash.jpg);
+    background-image: url(./images/main-page/priscilla-du-preez-FOsina4f7qM-unsplash.jpg), /* Photo by Priscilla Du Preez on Unsplash */ url(./images/main-page/aaron-burden-pQ3NZy0hGWs-unsplash.jpg), /* Photo by Aaron Burden on Unsplash */ url(./images/main-page/matt-bowden-GZc4fnQsaWQ-unsplash.jpg), /* Photo by Matt Bowden on Unsplash */ url(./images/main-page/priscilla-du-preez-FOsina4f7qM-unsplash.jpg);
     background-position: 0 0,
     800px 0,
     1600px 0,
@@ -180,6 +181,36 @@ p {
     800px 500px;
     background-repeat: no-repeat;
     animation: slide 30s linear infinite;
+}
+
+.see-more-link {
+    text-align: right;
+    margin-top: 0;
+}
+
+.rest-for-the-soul{
+    margin: 2rem auto 3rem;
+}
+
+.photo-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-gallery > div {
+    display: flex;
+    flex-direction: column;
+}
+
+/*.photo-gallery > div:nth-child(2n) {
+    margin: 0 16px;
+}*/
+
+.photo-gallery > div > img {
+    width: 240px;
+    height: 200px;
+
 }
 
 .important-links {
