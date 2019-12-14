@@ -10,7 +10,7 @@
   }
   
   .box {
-    padding: 2px 16px;
+    padding: 2px 14px;
   }
   
   .card img {
@@ -31,8 +31,8 @@
       width: 360px;
       height: 340px;
       position: relative;
-      left: 880px;
-      top: 1380px;
+      left: 850px;
+      top: 1400px;
   }
   
   .flipImage-inner {
