@@ -10,7 +10,7 @@
   }
   
   .box {
-    padding: 2px 16px;
+    padding: 2px 14px;
   }
   
   .card img {
@@ -51,7 +51,7 @@
       width: 390px;
       height: 620x;
       backface-visibility: hidden;
-      box-shadow: 15px 10px 5px   white;
+     
        
   }
   
@@ -93,6 +93,7 @@
   main {
       margin: 25px;
       padding: 15px;
+      text-align: left;
     }
   
   #titleContainer_att {
