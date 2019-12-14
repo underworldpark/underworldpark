@@ -93,6 +93,7 @@
   main {
       margin: 25px;
       padding: 15px;
+      text-align: left;
     }
   
   #titleContainer_att {
