@@ -1,0 +1,57 @@
+.contact-card {
+  width: 45vw;
+  background: #283040;
+  border-radius: 2px;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 1px 6px 2px 3px white;
+  margin: 20px;
+  padding: 20px;
+}
+
+fieldset {
+  line-height: 1.2rem;
+  border: none;
+  width: 80%;
+}
+textarea {
+  width: -webkit-fill-available;
+}
+fieldset > input {
+  border: none;
+  border-bottom: 1px solid gray;
+  align-self: center;
+  width: -webkit-fill-available;
+  font-size: 1.2em;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: #bf0404;
+}
+
+@keyframes shrinklogo {
+  100% {
+    width: 250px;
+    height: auto;
+  }
+  50% {
+    width: 200px;
+    height: auto;
+  }
+  0% {
+    width: 250px;
+    height: auto;
+  }
+}
+.animate-logo {
+  animation-name: shrinklogo;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}

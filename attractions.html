@@ -10,17 +10,28 @@
       name="keywords"
       content="Rides, attractions,'amusement park', rollercoaster, 'theme park'"
     />
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="attractionsStyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <!-- Header containing the navigation bar and logo, which is consistent across all pages-->
     <header>
-      <nav class="navBar">
+      <nav id="navbar" class="navBar">
         <!--logo of the theme park links to the main/home page-->
         <a href="#Home">
-          <img class="logo" src="images/logo.jpg" alt="Theme park logo" />
+          <img
+            class="logo"
+            src="images/underworld_logo_vector.svg"
+            alt="Theme park logo"
+          />
         </a>
+
         <ul>
           <li>
             <a class="navLink" href="index.html">Home</a>
@@ -34,223 +45,210 @@
             <a class="navLink" href="contact.html">Contact Us</a>
           </li>
         </ul>
-        <a href="#" alt="Shopping cart icon"
-          ><i class="fas fa-shopping-cart"></i>
-        </a>
-        <button onclick="window.location.href='#';">BUY TICKETS</button>
+
+        <button class="buy-btn" onclick="window.location.href='#';">
+          BUY TICKETS
+        </button>
       </nav>
     </header>
 
-    <!--This section contains the title banner-->
-    <div id="titleContainer">
-      <h1>ATTRACTIONS</h1>
+<!--This section contains the title banner-->
+<div class="mainSection">
+<div id="titleContainer_att">
+<h1>ATTRACTIONS</h1>
+</div>
+
+<main>
+<section>
+
+<div id="title">
+<h2>Rides</h2>
+</div>
+    <!--This section contains images of rides and their descriptions below placed side by side(3x3)
+      Hovering on the cards produces a shadow effect-->
+<div id="ride-imagesContainer">
+  <div class="card">
+    <img src=" images/Rides/rollercoaster.jpg" alt="People on a rollercoaster with virtual reality goggles">
+    <div class="box">
+    <h3><b>Styx River Cruise</b></h3>
+    <p>This rollercoaster is identified as a psychological thrill ride. It aims to play
+    mind games with its riders. This attraction has it all: Hermes will lead the
+    passengers to Charon as they gaze into the depths of the darkest river.</p>
     </div>
+  </div>
 
-    <main>
-      <section>
-        <div class="title">
-          <h2>Rides</h2>
-        </div>
-        <!--This section contains images of rides and their descriptions below placed side by side(3x3)-->
-        <div id="ride-imagesContainer">
-          <div class="card">
-            <img
-              src="images/Rides/dropTower.jpeg"
-              alt="Tall, grey droptower"
-              style="width: 50%; height: 50%"
-            />
-            <div class="box">
-              <h3><b>Fall Into Hades</b></h3>
-              <p>
-                This drop tower climbs high into the air over 400 feet. But it
-                does not stop here... Before it drops, its seats pivot 90
-                degrees so that passengers face the ground as they freefall at a
-                furious 60 mph.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              src="images/Rides/rollercoaster.jpg"
-              alt="Guests on a rollercoaster with virtual reality goggles"
-              style="width: 50%; height: 50%"
-            />
-            <div class="box">
-              <h3><b>Styx River Cruise</b></h3>
-              <p>
-                This rollercoaster is identified as a psychological thrill ride.
-                It aims to play mind games with its riders. This attraction has
-                it all: Hermes will lead the passengers to Charon as they gaze
-                into the depths of the darkest river.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              src="images/Rides/rollercoaster3.jpg"
-              alt="Guests on a rollercoaster with virtual reality goggles"
-              style="width: 50%; height: 50%"
-            />
-            <div class="box">
-              <h3><b>Realm of Darkness</b></h3>
-              <p>
-                A harrowing rollercoaster, that reaches 4.5 G, a height of 203
-                feet, and speeds exceeding 120 kmph. And there are seven coveted
-                moments of weightlessness when your stomach just floats…and
-                floats again.
-              </p>
-            </div>
-          </div>
+  <div class="card">
+    <img src=" images/Rides/dropTower.jpeg" alt="Tall, grey droptower">
+    <div class="box">
+    <h3><b>Fall Into Hades</b></h3>
+    <p class="att">This drop tower climbs high into the air over 400 feet. But it does not stop here... Before
+    it drops, its seats pivot 90 degrees so that passengers face the ground as they freefall at a
+    furious 60 mph.</p>
+    </div>
+  </div>
 
-          <div class="card">
-            <img
-              src="images/Rides/pendulum.jpg"
-              alt="Guests seated on a pendulum ride"
-              style="width: 50%; height: 50%"
-            />
-            <div class="box">
-              <h3><b>Hades' Eye</b></h3>
-              <p>
-                To say this pendulum thrill ride is an adrenaline rush is an
-                understatement. Hades' Eye takes its passengers nearly vertical
-                at the height of each swinging arc, hits a top speed of 70 kmph,
-                and delivers potent, tummy-tickling, negative G-forces.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              src="images/Rides/escapeRoom.jpg"
-              alt="Escape room with fire effects"
-              style="width: 50%; height: 50%"
-            />
-            <div class="box">
-              <h3><b>Tartarus</b></h3>
-              <p>
-                A deep abyss used as a dungeon of torment and suffering for the
-                wicked. Do you think you can escape? Try your luck at the
-                Tartarus and test your wits while the clock ticks.
-              </p>
-            </div>
-            <div class="card">
-              <img
-                src="images/Rides/cerebrus.png"
-                alt="Cerebrus scary dog ride"
-                style="width: 50%; height: 50%"
-              />
-              <div class="box">
-                <h3><b>Cerberus</b></h3>
-                <p>
-                  Take your children to this not-so-sweet merry-go-round and
-                  have them ride the guardians of the underworld. Safe for
-                  children of all ages - not counting the nightmares, of course.
-                </p>
-              </div>
-              <div class="card">
-                <img
-                  src="images/Rides/labyrinth.png"
-                  alt="Labyrinth Maze"
-                  style="width: 50%; height: 50%"
-                />
-                <div class="box">
-                  <h3><b>Asterion's Maze</b></h3>
-                  <p>
-                    The legend goes that the minotaur was recruited by Hades to
-                    prevent his son, Zagreus, from escaping the Underworld. Try
-                    to find your way inside the maze before the minotaur catches
-                    you!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div class="card">
+    <img src=" images/Rides/pendulum.jpg" alt="People seated on a pendulum ride">
+    <div class="box">
+    <h3><b>Hades' Eye</b></h3>
+    <p>To say this pendulum thrill ride is an adrenaline rush is an understatement.
+    Hades' Eye takes its passengers nearly vertical at the height of each swinging
+    arc, hits a top speed of 70 kmph, and delivers potent, tummy-tickling, negative G-forces.</p>
+    </div>
+  </div>
 
-      <section>
-        <div class="title">
-          <h2>Food Court</h2>
-        </div>
-        <!--This section contains images of restaurants and their descriptions. Images will float left to the paragraph-->
-        <div id="restaurant1">
-          <h3>Mourning Fields</h3>
-          <img
-            src="images/Restaurants/r1.jpg"
-            alt="Dining area with tables and chairs"
-            style="width: 50%; height: 50%"
-          />
-          <p>
-            The Mourning Fields was a section of the underworld reserved for
-            souls who wasted their lives on unrequited love. Bring your date and
-            draw your fate. This restaurant lets you take a break from all the
-            horror. You'll listen to soothing romantic songs while you enjoy the
-            best of the greek cuisine.
-          </p>
-        </div>
+  <div class="card">
+    <img src=" images/Rides/booster.jpg" alt="Booster with people riding">
+    <div class="box">
+    <h3><b>Torch of Thanatos</b></h3>
+    <p>The torch thrusts riders hundreds of feet in the sky. This thriller ride spins
+    up to 18 revolutions per minute and produces an acceleration of 3.8 g on riders.
+    </p>
+    </div>
+  </div>
 
-        <div id="restaurant2">
-          <h3>Flegetonte</h3>
-          <img
-            src="images/Restaurants/r2.jpg"
-            alt="Delicious pizza"
-            style="width: 50%; height: 50%"
-          />
-          <p>
-            Plato described the Flagetonte river as "a stream of fire, which
-            coils round the earth and flows into the depths of Tartarus". Beware
-            with the hot cheese in this italian pizzaria!
-          </p>
-        </div>
+  <div class="card">
+    <img src=" images/Rides/escapeRoom.jpg" alt="Escape room with fire effects">
+    <div class="box">
+    <h3><b>Tartarus</b></h3>
+    <p>A deep abyss used as a dungeon of torment and suffering for the
+    wicked. Do you think you can escape? Try your luck at the
+    Tartarus and test your wits while the clock ticks.
+    </p>
+    </div>
+  </div>
 
-        <div id="restaurant3">
-          <h3>Elysium</h3>
-          <img
-            src="images/Restaurants/r3.jpg"
-            alt="Dining table containing a glass of wine and a bowl of food."
-            style="width: 50%; height: 50%"
-          />
-          <p>
-            Rest your soul at this fine dining restaurant at the end of Hades!
-            Find the best of contemporary cuisine here with some celestial,
-            hand-selected wines.
-          </p>
-        </div>
-      </section>
-    </main>
+  <div class="card">
+    <img src=" images/Rides/rollercoaster3.jpg" alt="grey rollercoaster">
+    <div class="box">
+    <h3><b>Realm of Darkness</b></h3>
+    <p>A harrowing rollercoaster, that reaches 4.5 G, a height of 203 feet,
+    and speeds exceeding 120 kmph.And there are seven coveted moments of
+    weightlessness when your stomach just floats…and floats again.
+    </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src=" images/Rides/cerebrus.jpg" alt="Three-headed dog">
+    <div class="box">
+    <h3><b>Cerberus</b></h3>
+    <p>Take your children to this not-so-sweet merry-go-round and have them
+    ride the guardians of the underworld. Safe for children of all ages -
+    not counting the nightmares, of course.
+    </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src=" images/Rides/labyrinth.jpg" alt="Circular green maze">
+    <div class="box">
+    <h3><b>Asterion's Maze</b></h3>
+    <p>The legend goes that the minotaur was recruited by Hades to
+    prevent his son, Zagreus, from escaping the Underworld. Try to
+    find your way inside the maze before the minotaur catches you!
+    </p>
+    </div>
+  </div>
+
+  <!--HOVER on Medusa image - the image flips-->
+  <div class="flipImage">
+     <div class="flipImage-inner">
+        <div class="flipImage-front">
+          <img src=" images/Rides/medusa.jpg" alt="Image of Medusa">
+         </div>
+         <div class="flipImage-back">
+           <div id="hiddenText">
+           <h2><b>Coming Soon!</b></h2>
+            <p>Expect the unexpected with the formidable beast of the Underworld!</p>
+            </div>
+         </div>
+       </div>
+      </div>
+   </div>
+</section>
+
+<section>
+<div id="title">
+<h2>Restaurants</h2>
+</div>
+  <!--This section contains images of restaurants and their descriptions. Images will float left to the paragraph-->
+<div id="restaurant1">
+  <h3>Mourning Fields</h3>
+  <p>
+    <img src=" images/Restaurants/r1.jpg" alt="Dining area with tables and chairs" width="240" height="245">
+    The Mourning Fields was a section of the underworld reserved for
+    souls who wasted their lives on unrequited love. Bring your date and
+    draw your fate. This restaurant lets you take a break from all the
+    horror. You'll listen to soothing romantic songs while you enjoy the
+    best of the greek cuisine.
+  </p>
+</div>
+
+<div id="restaurant2">
+  <h3>Flegetonte</h3>
+  <p>
+    <img src=" images/Restaurants/r2.jpg" alt="Delicious pizza" width="300" height="245">
+    Plato described the Flagetonte river as "a stream of fire, which
+    coils round the earth and flows into the depths of Tartarus". Beware
+    with the hot cheese in this italian pizzaria!
+  </p>
+</div>
+
+<div id="restaurant3">
+  <h3>Elysium</h3>
+  <p>
+    <img src=" images/Restaurants/r3.jpg" alt="Dining table containing a glass of wine and a bowl of food." width="300" height="245">
+    Rest your soul at this fine dining restaurant at the end of Hades!
+    Find the best of contemporary cuisine here with some celestial,
+    hand-selected wines.
+  </p>
+</div>
+</section>
+</main>
 
     <!-- Footer containing navigation links and other information -->
     <footer>
-      <p>2019</p>
-      <p>&copy; Web Dev Group t1g2-cdx</p>
-      <address>
-        10000 Fakey Fake street San Francisco, CA USA
-      </address>
-      <section>
-        <h4 id="4">Follow us on social media</h4>
-        <ul>
-          <li>
-            <a href=""><i class="fab fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fab fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fab fa-reddit"></i></a>
-          </li>
-        </ul>
-      </section>
-      <ul>
-        <li><a class="navLink" href="index.html">Home</a></li>
-        <li><a class="navLink" href="attractions.html">Attractions</a></li>
-        <li><a class="navLink" href="contact.html">Contact Us</a></li>
-      </ul>
-      <script
-        src="https://kit.fontawesome.com/1b9c1e39c0.js"
-        crossorigin="anonymous"
-      ></script>
+      <div class="important-links">
+        <div class="extra-foot">
+          <address>
+            10000 Fakey Fake street<br />San Francisco, CA<br />USA
+          </address>
+          <p>Underworld Amusement&copy; 2019</p>
+        </div>
+
+        <section>
+          <h4 id="4">Follow us on social media</h4>
+          <ul class="social-media-links">
+            <li>
+              <a href=""><i class="fab fa-facebook fa-fw"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram fa-fw"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter fa-fw"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-reddit fa-fw"></i></a>
+            </li>
+          </ul>
+        </section>
+        <div class="website-links">
+          <ul>
+            <li><a class="bottom-links" href="index.html">Home</a></li>
+            <li>
+              <a class="bottom-links" href="attractions.html">Attractions</a>
+            </li>
+            <li><a class="bottom-links" href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
+    <script src="./index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1b9c1e39c0.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
