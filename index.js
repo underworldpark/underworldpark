@@ -10,5 +10,3 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 };
-
-//maybe have a function that adds a class to the shopping cart when a ticket has been added like it is animated by growth or color changing to indicate it has stuff in it.
