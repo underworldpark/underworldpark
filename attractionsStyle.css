@@ -5,6 +5,7 @@ determines card effects. Shadow effect, size, styling and mouse hover modified *
   box-shadow: 0 6px 3px 0 #536473;
   transition: 0.3s;
   width: 30%;
+  min-height: 640px;
   margin: 12px;
 }
 
@@ -20,7 +21,7 @@ determines card effects. Shadow effect, size, styling and mouse hover modified *
 /* determines size of image on the cards */
 .card img {
   align-content: center;
-  width: 95%;
+  width: 100%;
   height: 340px;
   object-fit: cover;
 }
