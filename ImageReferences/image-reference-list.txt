@@ -1,0 +1,36 @@
+Attractions Page Image Reference List:
+
+/images/Rides/ Directory:
+
+Styx River Cruise: rollercoaster.jpeg
+Image Source: tivoligardens.com - vr_daemonen_600x400.jpg 
+
+Torch of Thanatos: booster.jpeg
+Image Source: galleries.jiangaophoto.com - lunapark-sunny-beach-booster10.jpg
+
+Cerebrus: cerebrus.jpg
+Image Source: flickrhivemind.net - 9367712773_9ab86127f9_m.jpg
+
+Asterion's Maze: labyrinth.jpg
+Image Source: conversationagent.com - https://conversationagent.typepad.com/.a/6a00d8341c03bb53ef019b00a94b4e970d-500wi
+
+Medusa: medusa.jpg
+Image Source: imagekind.com - Medusa_art.jpg 
+
+/images/Resterants/ Directory:
+
+Mourning Fields: r1.jpg
+Image Source: quiz.upsocl.com - resto.jpg
+
+Flegetonte: r2.jpg
+Image Source: stock.adobe.com - 116375594 
+
+Elysium: r3.jpg
+Image Source: stock.adobe.com - 308584415
+
+
+Images taken from ShutterStock:
+/images/Rides/dropTower.jpeg
+/images/Rides/pendulum.jpg
+/images/Rides/rollercoaster3.jpg
+/images/Rides/escapeRoom.jpg
