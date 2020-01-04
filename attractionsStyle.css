@@ -39,11 +39,12 @@ Aligns 3 images side by side, modified alignment. */
 determines color, position and size. Modified positioning, style and design */
 .flipImage {
   background-color: transparent;
-  width: 360px;
+  width: 28%;
   height: 340px;
   position: relative;
-  left: 66%;
-  top: 1400px;
+  float: right;
+  margin-right: 7%;
+  margin-top: 14px;
 }
 
 .flipImage-inner {
