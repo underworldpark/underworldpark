@@ -19,7 +19,8 @@ determines card effects. Shadow effect, size, styling and mouse hover modified *
 
 /* determines size of image on the cards */
 .card img {
-  width: 360px;
+  align-content: center;
+  width: 95%;
   height: 340px;
   object-fit: cover;
 }
