@@ -28,6 +28,7 @@
     padding: 10px;
     background-color:#283040; 
   }
+
  
 /* determines color, position and size */
   .flipImage {
@@ -91,6 +92,12 @@
       background-color:  #BF0404;
       text-align: center;
       color: white;
+  }
+
+ .restaurant {
+     align-content: center;
+     
+        
   }
   
   main {
